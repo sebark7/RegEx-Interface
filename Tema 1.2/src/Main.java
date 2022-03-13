@@ -110,7 +110,7 @@ public class Main {
                     while (matcher.find())
                     {
                         ok = true;
-                        area2.append(matcher.group() + " pozitia " + matcher.start() + "\n");
+                        area2.append(matcher.group() + " pozitia " + (matcher.start() + 1) + "\n");
 
                     }
 
